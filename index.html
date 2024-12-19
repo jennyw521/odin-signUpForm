@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <figure class="img-container">
+            <div class="logo">
+                <img src="odin-lined.png" alt="The Odin Project logo" height="70%">
+                <span>ODIN</span>
+            </div>
+            <figcaption>Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+        <form class="info-container" method="post">
+            <div>
+                <p>
+                    This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                </p> 
+                <p>
+                    Sign up <span>now</span> to get started. 
+                </p>
+                <p>
+                    You <span>know</span> you want to.
+                </p>
+            </div>
+            <fieldset>
+                <p>Let's do this!</p>
+                <div>
+                    <label for="fname">FIRST NAME</label>
+                    <input id="fname" name="fname" type="text" required>
+                </div>
+                <div>
+                    <label for="lname">LAST NAME</label>
+                    <input id="lname" name="lname" type="text" required>
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input id="phone" name="phone" type="tel" minlength="7" maxlength="15" required>
+                </div> 
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input id="password" name="password" type="password" required>
+                    <span></span>
+                </div>  
+                <div>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input id="confirm-password" name="confirm-password" type="password" required>
+                </div>  
+            </fieldset>
+            <button>Create Account</button>
+            <p>
+                Already have an account? <a href="">Log in</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
